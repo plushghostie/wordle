@@ -26,8 +26,9 @@ const keyboard = [
     "QWERTYUIOP".split(''), // ["Q" . "W" , "E" . . . "P"]
     "ASDFGHJKL".split(''),
     "ZXCVBNM".split('')
-]
-
+];
+keyboard[2].shift(`ENTER`);
+keyboard[2].push(`BACK`);
 function render() {
     const main = document.querySelector('#root'); // this searches the html doc for <main id="root"></main> --> then saves in javascript
     let template = `<div class="keyboard">`;

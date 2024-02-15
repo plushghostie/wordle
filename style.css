@@ -28,7 +28,7 @@ header h1 {
 
 .key {
     background-color: rgb(129,131,132);
-    width: 25px;
+    min-width: 43px;
     height: 58px;
     border-radius: 5px;
     text-align: center;
@@ -36,6 +36,7 @@ header h1 {
     font-family: "Libre Franklin", sans-serif;
     font-weight: bold;
     font-size: 1.25em;
+    padding: 0 10px;
     
 }
 
